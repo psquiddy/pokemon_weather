@@ -52,7 +52,7 @@ def reformat_description(description):
     return formatted_description
 
 # Weather API to get current weather
-weather_api_key = "[your_api_key]"
+weather_api_key = "[your-weather-api-key]"
 weather_url = "http://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={key}&units=metric"
 
 # Pokémon API to get Pokémon data
